@@ -1,0 +1,7 @@
+parameters:
+#    drs_home.example.class: Drs\HomeBundle\Example
+
+services:
+#    drs_home.example:
+#        class: %drs_home.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

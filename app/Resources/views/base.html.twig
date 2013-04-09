@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8" />
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    <!-- Bootstrap -->
+    {% block stylesheets %}
+        <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet" media="screen">
+    {% endblock %}
+    
+  </head>
+  <body>
+    {% block body %}{% endblock %}
+    {% block javascripts %}
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
+    {% endblock %}
+  </body>
+</html>

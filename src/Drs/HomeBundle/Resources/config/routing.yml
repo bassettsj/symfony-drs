@@ -1,0 +1,3 @@
+drs_home_homepage:
+    pattern:  /
+    defaults: { _controller: DrsHomeBundle:Default:index }

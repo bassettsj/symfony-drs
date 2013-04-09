@@ -1,0 +1,4 @@
+drs_home:
+    resource: "@DrsHomeBundle/Resources/config/routing.yml"
+    prefix:   /
+
